@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      BASE_URL: ${{ vars.BASE_URL }}
+      BASE_URL: ${{ vars.BASE_URL || 'https://staging.sync-np.davita.com' }}
       TEST_USER_1_USERNAME: ${{ secrets.TEST_USER_1_USERNAME }}
       TEST_USER_1_PASSWORD: ${{ secrets.TEST_USER_1_PASSWORD }}
       TEST_USER_2_USERNAME: ${{ secrets.TEST_USER_2_USERNAME }}
