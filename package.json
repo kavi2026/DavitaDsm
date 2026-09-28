@@ -1,0 +1,17 @@
+{
+  "name": "davida",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests for DaVita Secure Messaging",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "dotenv": "^18.0.4"
+  }
+}

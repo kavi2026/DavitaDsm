@@ -1,0 +1,12 @@
+[
+  {
+    "name": "BELARSON",
+    "usernameEnv": "TEST_USER_1_USERNAME",
+    "passwordEnv": "TEST_USER_1_PASSWORD"
+  },
+  {
+    "name": "JDICKES",
+    "usernameEnv": "TEST_USER_2_USERNAME",
+    "passwordEnv": "TEST_USER_2_PASSWORD"
+  }
+]
